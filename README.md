@@ -15,7 +15,7 @@ To run the javascript code, you will need [Greasemonkey](http://www.greasespot.n
 
 ##Install it
 
- 1. Open the `fixtwitterlinks.user.js` file as RAW text
+ 1. Open the [`fixtwitterlinks.user.js`](https://raw.githubusercontent.com/lucio-martinez/fix-twitter-links/master/fixtwitterlinks.user.js) file as RAW text
  ![on github open the fixtwitterlinks.user.js file and press RAW](http://i.imgur.com/xCuU6pX.png)
  2. A new window will open requesting you to install it pressing the <kbd>Install</kbd> button
  ![Greasemonkey installation window, press Install](http://i.imgur.com/iOkIXgF.png)
