@@ -23,14 +23,22 @@ It's an Opera extension so install it from [The Opera Theater](https://addons.op
 
 ##Install it
 
- 1. Open the [`fixtwitterlinks.user.js`](https://raw.githubusercontent.com/lucio-martinez/fix-twitter-links/master/fixtwitterlinks.user.js) file as RAW text
+###Greasemonkey
 
- ![on github open the fixtwitterlinks.user.js file and press RAW](http://i.imgur.com/xCuU6pX.png)
+ 1. Go to the [OpenSourceJS page](https://openuserjs.org/scripts/lucio-martinez/Fix_Twitter_links) and press <kbd>Install</kbd>
  2. A new window will open requesting you to install it pressing the <kbd>Install</kbd> button
 
  ![Greasemonkey installation window, press Install](http://i.imgur.com/iOkIXgF.png)
  3. ??
  4. Done!
+
+###Tampermonkey
+
+ 1. Go to the [OpenSourceJS page](https://openuserjs.org/scripts/lucio-martinez/Fix_Twitter_links) and press <kbd>Install</kbd>
+ 2. A new tab will open displaying the script information where you have an <kbd>Install</kbd> button
+
+![Tampermonkey installation window, press Install](http://i.imgur.com/6rGf6Rq.png)
+ 3. Yep, it's done
 
 ##Use it
 
