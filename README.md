@@ -9,15 +9,25 @@ Fix Twitter links from your timeline and say goodbye to URL shorteners!
 
 The current version is a [User Script](http://wiki.greasespot.net/User_script) which modifies the URLs on the fly.
 
-##Greasemonkey
+##Browser
 
-To run the javascript code, you will need [Greasemonkey](http://www.greasespot.net/). It's a simple Firefox extension so install it from [Mozilla](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/).
+To run the javascript code, you will need a User Script manager. Depending on your browser the choice may differ.
+
+ - Firefox: [Greasemonkey](http://www.greasespot.net/)  
+It's a simple Firefox extension so install it from [Mozilla](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/).
+ - Chromium: [Tampermonkey](http://tampermonkey.net/)  
+It's a Chrome extension so install it from [Google](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo).
+ - Opera: [Tampermonkey](http://www.opera.com/docs/userjs/) (not even tested)  
+It's an Opera extension so install it from [The Opera Theater](https://addons.opera.com/en/extensions/details/tampermonkey-beta/).
+ - Others: Do you *really* use another browser?
 
 ##Install it
 
  1. Open the [`fixtwitterlinks.user.js`](https://raw.githubusercontent.com/lucio-martinez/fix-twitter-links/master/fixtwitterlinks.user.js) file as RAW text
+
  ![on github open the fixtwitterlinks.user.js file and press RAW](http://i.imgur.com/xCuU6pX.png)
  2. A new window will open requesting you to install it pressing the <kbd>Install</kbd> button
+
  ![Greasemonkey installation window, press Install](http://i.imgur.com/iOkIXgF.png)
  3. ??
  4. Done!
@@ -26,11 +36,11 @@ To run the javascript code, you will need [Greasemonkey](http://www.greasespot.n
 
 Just open Twitter, navigate to your timeline and surf the web without dealing with the Twitter URL shorten system!
 
-Before:
+__Before:__
 
 ![shortened link](http://i.imgur.com/pngtXpS.png)
 
-After:
+__After:__
 
 ![real link](http://i.imgur.com/SxLOiVp.png)
 
