@@ -38,7 +38,8 @@ It's an Opera extension so install it from [The Opera Theater](https://addons.op
  2. A new tab will open displaying the script information where you have an <kbd>Install</kbd> button
 
 ![Tampermonkey installation window, press Install](http://i.imgur.com/6rGf6Rq.png)
- 3. Yep, it's done
+ 3. Install it when you feel like it
+ 4. Yep, it's done
 
 ##Use it
 
