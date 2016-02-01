@@ -1,7 +1,7 @@
 Fix Twitter links
 =================
 
-Fix Twitter links from your timeline and say goodbye to URL shorteners!
+> Fix Twitter links from your timeline and say goodbye to URL shorteners!
 
 #How to use it
 
@@ -11,13 +11,13 @@ The current version is a [User Script](http://wiki.greasespot.net/User_script) w
 
 ##Browser
 
-To run the javascript code, you will need a User Script manager. Depending on your browser the choice may differ.
+To active the functionality, you will need a User Script manager. Depending on your browser the choice may differ.
 
+ - Chrome: [Tampermonkey](http://tampermonkey.net/)  
+It's a Chrome extension so install it from [Google](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo).
  - Firefox: [Greasemonkey](http://www.greasespot.net/)  
 It's a simple Firefox extension so install it from [Mozilla](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/).
- - Chromium: [Tampermonkey](http://tampermonkey.net/)  
-It's a Chrome extension so install it from [Google](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo).
- - Opera: [Tampermonkey](http://www.opera.com/docs/userjs/) (not even tested)  
+ - Opera: [Tampermonkey](http://www.opera.com/docs/userjs/) (not tested)  
 It's an Opera extension so install it from [The Opera Theater](https://addons.opera.com/en/extensions/details/tampermonkey-beta/).
  - Others: Do you *really* use another browser?
 
