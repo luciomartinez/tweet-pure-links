@@ -43,7 +43,7 @@ It's an Opera extension so install it from [The Opera Theater](https://addons.op
 
 ##Use it
 
-Just open Twitter, navigate to your timeline and surf the web without dealing with the Twitter URL shorten system!
+Just open [Twitter](https://twitter.com) or [TweetDeck](http://tweetdeck.twitter.com/) and navigate thru your timeline without dealing with the Twitter URL shorten system!
 
 __Before:__
 
