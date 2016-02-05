@@ -4,7 +4,7 @@
 // @description Fix Twitter timeline links bypassing the horrible shortener system
 // @version     2
 // @grant       none
-// @require     https://raw.githubusercontent.com/jquery/jquery/2.1.1/dist/jquery.min.js
+// @require     https://code.jquery.com/jquery-1.12.0.min.js
 // @include	    https://twitter.com/*
 // @include     https://tweetdeck.twitter.com/*
 // ==/UserScript==
