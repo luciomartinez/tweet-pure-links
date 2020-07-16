@@ -1,7 +1,8 @@
 // ==UserScript==
 // @name        Fix Twitter links
-// @namespace	  https://github.com/luciomartinez/fix-twitter-links
 // @description Fix Twitter links from your timeline and say goodbye to its URL shortener!
+// @license     MIT
+// @namespace	  https://github.com/luciomartinez/fix-twitter-links
 // @version     3
 // @grant       none
 // @match	      https://twitter.com/*
