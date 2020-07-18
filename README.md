@@ -3,7 +3,7 @@ Fix Twitter links
 
 > Fix Twitter links from your timeline and say goodbye to its URL shortener!
 
-![demo][http://g.recordit.co/Qn1Qc49lVD.gif]
+![Animated demo][https://raw.githubusercontent.com/luciomartinez/fix-twitter-links/main/demo.gif]
 
 Table of contents:
  - [What](#whats-it)
