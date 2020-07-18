@@ -3,6 +3,13 @@ Fix Twitter links
 
 > Fix Twitter links from your timeline and say goodbye to its URL shortener!
 
+![demo][http://g.recordit.co/Qn1Qc49lVD.gif]
+
+Table of contents:
+ - [What](#whats-it)
+ - [Why](#why-would-it-be-helpful)
+ - [How](#how-to-use-it)
+
 ## What's it?
 
 Have you ever wanted to open [Twitter](https://twitter.com) or [TweetDeck](http://tweetdeck.twitter.com/) and navigate thru your timeline without dealing with the Twitter URL shorten system?
@@ -10,13 +17,35 @@ Now you can with this [User Script](http://wiki.greasespot.net/User_script) that
 
 __Before:__
 
-![shortened link](http://i.imgur.com/pngtXpS.png)
+![shortened link](https://i.imgur.com/2ibEGOQ.png)
 
 __After:__
 
-![real link](http://i.imgur.com/SxLOiVp.png)
+![original link](https://i.imgur.com/TR3OsuU.png)
 
-## Requirements
+## Why would it be helpful?
+
+The default limitation of Twitter is when a link needs to be shared.
+
+Use case
+ 1. Navigating through Twitter's timeline there's a Tweet regarding an interesting article
+ 2. You want to share it with your peeps
+ 3. Copy the link and go to your message app
+ 4. Past the link and whoa la, it's an awful link looking something like http://t.co/Imp051b13T0R3ad
+ 
+Usual workaround
+ 1. Open the link at your browser
+ 2. Wait a bit until the source of the article loads
+ 3. Now copy this URL and paste it back to the messaging app
+ 
+By using Fix Twitter link, the URL present on the initial Tweet would represent the final URL.  
+Making it easier to just copy and paste it wherever you want without the need of workarounds.
+
+## How to use it?
+
+Read the [requirements](#requirements) and based on these the [installation notes](#installation).
+
+### Requirements
 
 User Scripts can be installed via a manager. Which manager to use will depend on the browser.
 
@@ -30,23 +59,46 @@ It's a Safari extension that can be installed via [Mac App Store](https://apps.a
 It's an Opera extension that can be installed via [Opera addons](https://addons.opera.com/en/extensions/details/tampermonkey-beta/).
  - Others: Do you *really* use another browser?
 
-## Installation
+### Installation
 
-### Greasemonkey
+The installation varies on the manager.
 
- 1. Go to the [OpenSourceJS page](https://openuserjs.org/scripts/lucio-martinez/Fix_Twitter_links) and press <kbd>Install</kbd>
- 2. A new window will open requesting you to install it pressing the <kbd>Install</kbd> button
-  ![Greasemonkey installation window, press Install](http://i.imgur.com/iOkIXgF.png)
- 3. ??
- 4. Done!
+#### Greasemonkey
 
-### Tampermonkey
+<details>
+<summary>See installation notes for Greasemonkey</summary>
 
- 1. Go to the [OpenSourceJS page](https://openuserjs.org/scripts/lucio-martinez/Fix_Twitter_links) and press <kbd>Install</kbd>
- 2. A new tab will open displaying the script information where you have an <kbd>Install</kbd> button
-  ![Tampermonkey installation window, press Install](http://i.imgur.com/6rGf6Rq.png)
- 3. Install it when you feel like it
- 4. Yep, it's done
+ 1. Open [Fix Twitter links](https://openuserjs.org/scripts/lucio-martinez/Fix_Twitter_links) at OpenUserJS
+ 2. Press the `Install` button
+ 3. A new window will open displaying information about the userscript
+  ![Greasemonkey installation window](https://i.imgur.com/7ZIERIv.png)
+ 4. Select `Install`
+</details>
+
+#### Tampermonkey
+
+<details>
+<summary>See installation notes for Tampermonkey</summary>
+
+ 1. Open [Fix Twitter links](https://openuserjs.org/scripts/lucio-martinez/Fix_Twitter_links) at OpenUserJS
+ 2. Press the `Install` button
+ 3. A new tab will open displaying the script information where you have an <kbd>Install</kbd> button
+  ![Tampermonkey installation window](https://i.imgur.com/RDLvcu7.png)
+ 4. Select `Install`
+</details>
+
+#### Userscripts Safari
+
+<details>
+<summary>See installation notes for Userscripts Safari</summary>
+
+ 1. Open the Userscripts menu
+ 2. Select `Add` -> `New Javascript`
+  ![Userscripts Menu](https://i.imgur.com/6fYg7Pk.png)
+ 3. On a new browser tab, copy the content of the [RAW script](https://openuserjs.org/src/scripts/lucio-martinez/Fix_Twitter_links.user.js#)
+ 4. Back on the Userscripts menu past the content into the new script
+ 5. Select `Save`
+</details>
 
 ## License
 
