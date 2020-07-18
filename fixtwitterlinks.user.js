@@ -3,6 +3,7 @@
 // @description Fix Twitter links from your timeline and say goodbye to its URL shortener!
 // @author      lucio-martinez
 // @license     MIT
+// @copyright   2020, Lucio Martinez
 // @supportURL  https://github.com/luciomartinez/fix-twitter-links/issues
 // @namespace	  https://github.com/luciomartinez/fix-twitter-links
 // @version     0.5
