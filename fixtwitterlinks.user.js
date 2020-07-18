@@ -3,13 +3,11 @@
 // @description Fix Twitter links from your timeline and say goodbye to its URL shortener!
 // @license     MIT
 // @namespace	  https://github.com/luciomartinez/fix-twitter-links
-// @version     3
+// @version     4
 // @grant       none
 // @match	      https://twitter.com/*
 // @match       https://tweetdeck.twitter.com/*
 // ==/UserScript==
-
-const WATCH_FOR_NEW_LINKS_EVERY_N_SECS = 2;
 
 fixLinks();
 
@@ -23,15 +21,46 @@ function fixLinks() {
 }
 
 function fixLinksInTwitter() {
-  startIntervalWithCleaner(parseLinksAtTwitter);
+  startWatchWithCleaner(parseLinksAtTwitter);
 }
 
 function fixLinksInTweetDeck() {
-  startIntervalWithCleaner(parseLinksAtTweetDeck);
+  startWatchWithCleaner(parseLinksAtTweetDeck);
 }
 
-function startIntervalWithCleaner(cleaner) {
-  setInterval(cleaner, WATCH_FOR_NEW_LINKS_EVERY_N_SECS * 1000);
+function startWatchWithCleaner(cleaner) {
+  startWatch(cleaner);
+}
+
+function startWatch(cleaner) {
+  const watchedNode = document.getElementById('react-root');
+  watchForChangesOnNodeAndRunCleaner(watchedNode, cleaner);
+}
+
+function watchForChangesOnNodeAndRunCleaner(targetNode, cleaner) {
+  const observer = createObserverWithCallbackBounced(cleaner);
+  observer.observe(targetNode, { subtree: true, childList: true });
+}
+
+function createObserverWithCallbackBounced(callback) {
+  const callbackDebounced = debounce(callback);
+  return new MutationObserver(callbackDebounced);
+}
+
+/**
+ * Thanks to Chris Boakes!
+ * https://chrisboakes.com/how-a-javascript-debounce-function-works/
+ * @param {function} callback - Function to be debounced
+ * @param {number} [wait=250] - Specifies the milliseconds to debounce
+ * @returns {function} Debounced function
+ */
+function debounce(callback, wait = 250) {
+  let timeout;
+  return (...args) => {
+    const context = this;
+    clearTimeout(timeout);
+    timeout = setTimeout(() => callback.apply(context, args), wait);
+  };
 }
 
 function parseLinksAtTwitter() {
@@ -64,5 +93,5 @@ function setHrefTo(el, url) {
 }
 
 function markAsFixed(el) {
-  el.dataset.linkFixed = 1;
+  el.dataset.linkFixed = '1';
 }
