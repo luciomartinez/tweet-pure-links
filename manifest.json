@@ -1,0 +1,23 @@
+{
+  "name": "Tweet Pure Links",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Tweet Pure Links and say goodbye to the URL shorten system",
+  "developer": {
+    "name": "Lucio Martinez",
+    "url": "https://luciomartinez.github.io"
+  },
+  "icons": {
+    "48": "icons/icon.png",
+    "96": "icons/icon@2x.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://twitter.com/*",
+        "*://tweetdeck.twitter.com/*"
+      ],
+      "js": ["fixtwitterlinks.user.js"]
+    }
+  ]
+}
