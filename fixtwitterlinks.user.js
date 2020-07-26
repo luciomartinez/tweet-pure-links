@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name        Fix Twitter links
-// @description Fix Twitter links from your timeline and say goodbye to its URL shortener!
+// @name        Tweet Pure Links
+// @description Tweet Pure Links and say goodbye to the URL shorten systems
 // @author      Lucio Martinez
 // @license     MIT
 // @copyright   2014-2020, Lucio Martinez (https://openuserjs.org/users/lucio-martinez)
 // @downloadURL https://openuserjs.org/install/lucio-martinez/Fix_Twitter_links.user.js
 // @updateURL   https://openuserjs.org/meta/lucio-martinez/Fix_Twitter_links.meta.js
-// @supportURL  https://github.com/luciomartinez/fix-twitter-links/issues
-// @namespace	  https://github.com/luciomartinez/fix-twitter-links
-// @version     0.5
+// @supportURL  https://github.com/luciomartinez/tweet-pure-links/issues
+// @namespace	  https://github.com/luciomartinez/tweet-pure-links
+// @version     1.0
 // @grant       none
 // @match	      https://twitter.com/*
 // @match       https://tweetdeck.twitter.com/*

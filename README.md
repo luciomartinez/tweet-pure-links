@@ -1,7 +1,7 @@
-Fix Twitter links
-=================
+![](/icons/icon.png) Tweet Pure Links
+=
 
-> Fix Twitter links from your timeline and say goodbye to its URL shortener!
+> Tweet Pure Links and say goodbye to the URL shorten system!
 
 ![Animated demo](https://raw.githubusercontent.com/luciomartinez/fix-twitter-links/main/demo.gif)
 
@@ -99,6 +99,10 @@ The installation varies on the manager.
  4. Back on the Userscripts menu past the content into the new script
  5. Select `Save`
 </details>
+
+## Icons
+
+Icons by [Icons8](https://icons8.com). See the [LICENSE](/icons/LICENSE) file.
 
 ## License
 
