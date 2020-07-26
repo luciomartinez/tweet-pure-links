@@ -1,4 +1,4 @@
-![](/icons/icon.png) Tweet Pure Links
+![](/icons/icon-32.png) Tweet Pure Links
 =
 
 > Tweet Pure Links and say goodbye to the URL shorten system!
