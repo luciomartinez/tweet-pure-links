@@ -4,8 +4,8 @@
 // @author      Lucio Martinez
 // @license     MIT
 // @copyright   2014-2020, Lucio Martinez (https://openuserjs.org/users/lucio-martinez)
-// @downloadURL https://openuserjs.org/install/lucio-martinez/Fix_Twitter_links.user.js
-// @updateURL   https://openuserjs.org/meta/lucio-martinez/Fix_Twitter_links.meta.js
+// @downloadURL https://openuserjs.org/install/lucio-martinez/Tweet_Pure_Links.user.js
+// @updateURL   https://openuserjs.org/meta/lucio-martinez/Tweet_Pure_Links.meta.js
 // @supportURL  https://github.com/luciomartinez/tweet-pure-links/issues
 // @namespace   https://github.com/luciomartinez/tweet-pure-links
 // @version     2.0

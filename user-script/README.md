@@ -2,7 +2,7 @@
 
 Tweet Pure Links is available as a User Script via the following marketplaces.
 
- - [OpenUserJS](https://openuserjs.org/scripts/lucio-martinez/Fix_Twitter_links)
+ - [OpenUserJS](https://openuserjs.org/scripts/lucio-martinez/Tweet_Pure_Links)
  - [Greasy Fork](https://greasyfork.org/en/scripts/16847-tweet-pure-links)
 
 ### Versioning
