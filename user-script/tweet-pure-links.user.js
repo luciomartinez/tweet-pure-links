@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        Tweet Pure Links
-// @description Tweet Pure Links and say goodbye to the URL shorten systems
+// @description Tweet Pure Links and say goodbye to the URL shorten system!
 // @author      Lucio Martinez
 // @license     MIT
 // @copyright   2014-2020, Lucio Martinez (https://openuserjs.org/users/lucio-martinez)
