@@ -21,7 +21,7 @@
         "*://tweetdeck.twitter.com/*",
         "*://mobile.twitter.com/*"
       ],
-      "js": ["tweet-pure-links.user.js"]
+      "js": ["main.js"]
     }
   ]
 }
