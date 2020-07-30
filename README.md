@@ -9,6 +9,8 @@ Table of contents:
  - [What](#whats-it)
  - [Why](#why-would-it-be-helpful)
  - [How](#how-to-use-it)
+ - [Where](#where-it-works)
+ - [Known issues](#known-issues)
 
 ## What's it?
 
@@ -99,6 +101,16 @@ The installation varies on the manager.
  4. Back on the Userscripts menu past the content into the new script
  5. Select `Save`
 </details>
+
+## Where it works?
+
+It works for [Twitter](https://twitter.com/), [TweetDeck](https://tweetdeck.twitter.com/) and [Mobile Twitter](https://mobile.twitter.com/).
+
+## Known issues
+
+The feature is not available for Media Tweets such as this one:
+
+![media tweets](https://i.imgur.com/ANJDsF0.png)
 
 ## Icons
 

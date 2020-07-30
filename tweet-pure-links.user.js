@@ -7,11 +7,12 @@
 // @downloadURL https://openuserjs.org/install/lucio-martinez/Fix_Twitter_links.user.js
 // @updateURL   https://openuserjs.org/meta/lucio-martinez/Fix_Twitter_links.meta.js
 // @supportURL  https://github.com/luciomartinez/tweet-pure-links/issues
-// @namespace	  https://github.com/luciomartinez/tweet-pure-links
-// @version     1.0
+// @namespace   https://github.com/luciomartinez/tweet-pure-links
+// @version     2.0
 // @grant       none
-// @match	      https://twitter.com/*
+// @match       https://twitter.com/*
 // @match       https://tweetdeck.twitter.com/*
+// @match       https://mobile.twitter.com/*
 // ==/UserScript==
 
 fixLinks();
