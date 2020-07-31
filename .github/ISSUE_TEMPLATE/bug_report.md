@@ -20,13 +20,14 @@ Steps to reproduce the behavior:
 **Expected behavior**
 A clear and concise description of what you expected to happen.
 
+**Actual behavior**
+A clear and concise description of what happened.
+
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. MacOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+**Browser (please complete the following information):**
+ - [e.g. chrome, safari]
 
 **Installed as (please complete the following information):**
  - [ ] Browser Extension
