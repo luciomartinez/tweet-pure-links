@@ -17,4 +17,4 @@ cp -r $PATH_TO_ICONS_SOURCE $PATH_TO_UNPACKED_DIRECTORY
 cp $PATH_TO_SCRIPT_SOURCE $PATH_TO_SCRIPT_TARGET
 cp $PATH_TO_MANIFEST_SOURCE $PATH_TO_UNPACKED_DIRECTORY
 
-echo "Successfully build an unpacked version!"
+echo "Successfully built an unpacked version!"
