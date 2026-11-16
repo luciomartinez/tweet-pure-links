@@ -1,6 +1,9 @@
 ![](/icons/icon-32.png) Tweet Pure Links
 =
 
+> [!NOTE]
+> **Tweet Pure Links has been retired.** The browser extension and userscript are no longer maintained. This repository is kept as a read-only archive.
+
 > Tweet Pure Links and say goodbye to the URL shorten system!
 
 ![Animated demo](https://raw.githubusercontent.com/luciomartinez/fix-twitter-links/main/demo.gif)
